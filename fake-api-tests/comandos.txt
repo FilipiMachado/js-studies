@@ -1,0 +1,7 @@
+ - Comando para criar json server (fake API)
+
+npm install -g json-server
+
+- Inicializar json server (deve estar no mesmo folder/pasta)
+
+json-server --watch db.json
