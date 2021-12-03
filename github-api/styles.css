@@ -1,0 +1,49 @@
+.container {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(160, 92, 250);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+}
+
+#repos-btn {
+  display: flex;
+  margin: auto;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(85, 84, 84);
+}
+
+#repos-btn:hover {
+  background-color: rgb(85, 84, 84);
+  transition: all 0.4s ease;
+  color: #fff;
+}
+
+#repos-results {
+  text-align: center;
+  margin: 20px;
+
+}
+
+#repos-results a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+#repos-results a:hover {
+    background-color: rgb(188, 20, 255);
+    padding: 0.1rem 0.4rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
