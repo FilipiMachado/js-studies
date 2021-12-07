@@ -7,5 +7,5 @@ const names = [
 ];
 
 names.forEach((value, index) => {
-  console.log(`br`);
+  console.log(`${index + 1}`);
 });
