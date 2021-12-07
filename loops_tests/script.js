@@ -12,14 +12,17 @@ const names = [
   ["1", "b", "II"],
   ["2", "c", "III"],
   ["3", "d", "IV"],
-  ["4", "e", "V"],
+  ["4", "e", "V", "VI"],
 ];
 
 let rows = names.length;
 
 for (let i = 0; i < rows; i++) {
-  let items = i < names[i].length;
+  let items = names[i].length;
   console.log(i, items);
+
+
+
 }
 
 //console.log(rows);
