@@ -7,22 +7,28 @@
 }
   */
 
+ /* let rows = names.length;
+ 
+ //console.log(rows);
+ 
+ for (let i = 0; i < rows; i++) {
+   let items = names[i].length;
+   //console.log(i, items);
+ 
+   for(let j = 0; j < items; j++) {
+       console.log(names[i][j]);
+   }
+ }
+ 
+ //console.log(rows); */
+
+
+ 
 const names = [
   ["0", "a", "I"],
-  ["1", "b", "II"],
+  ["1", "b"],
   ["2", "c", "III"],
   ["3", "d", "IV"],
   ["4", "e", "V", "VI"],
 ];
 
-let rows = names.length;
-
-for (let i = 0; i < rows; i++) {
-  let items = names[i].length;
-  console.log(i, items);
-
-
-
-}
-
-//console.log(rows);
