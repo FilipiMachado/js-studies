@@ -42,6 +42,10 @@
     }
   */
 
+/* for(let i = 0; i < names.length; i++) {
+   console.log(names[i])
+ } */
+
 const names = [
   ["0", "a", "I"],
   ["1", "b"],
@@ -50,6 +54,10 @@ const names = [
   ["4", "e", "V", "VI"],
 ];
 
-for(let i = 0; i < names.length; i++) {
-  console.log(names[i])
+/* for (let i = 0; i < names.length; i++) {
+  console.log(`looping through ${names[i]}`);
+} */
+
+for (let i = 0; i < 10; i++) {
+  console.log(`Loop ${i + 1}`)
 }
