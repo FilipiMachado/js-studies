@@ -125,6 +125,6 @@ for (let i = 0; i < ages.length; i++) {
   }
 }); */
 
-const canDrink = ages.filter((age) => age >= 21);
+// -- Nice way to filter
+//const canDrink = ages.filter((age) => age >= 21);
 
-console.log(`The ages who can drink: ${canDrink}`);
