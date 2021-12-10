@@ -139,3 +139,15 @@ for (let i = 0; i < retailCompanies.length; i++) {
 }
  */
 
+// ---- For Structure
+// -->Starting point
+// -->Condition for when your loop should end
+
+
+
+
+
+
+
+
+
