@@ -128,3 +128,10 @@ for (let i = 0; i < ages.length; i++) {
 // -- Nice way to filter
 //const canDrink = ages.filter((age) => age >= 21);
 
+const retailCompanies = companies.filter((company) => company.category === "Retail")
+
+console.log(retailCompanies)
+
+for (let i = 0; i < retailCompanies.length; i++) {
+  console.log(retailCompanies[i].name,retailCompanies[i].start)
+}
