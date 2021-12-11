@@ -16,10 +16,11 @@
 
 saudar() */
 
-function criarNome(nome) {
+/* function criarNome(nome) {
   return nome = "Fil";
 }
 
 const pessoa = criarNome();
 
 console.log(pessoa)
+ */
