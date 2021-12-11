@@ -124,6 +124,22 @@ for (let i = 0; i < retailCompanies.length; i++) {
 }
  */
 
+// ---- For Structure
+// -->Starting point
+// -->Condition for when your loop should end
+// --Increment or decrement || continues up or down
+
+/* for (let i = 0; i < ages.length; i++) {
+  
+} */
+
+/* for (const company in companies) {
+  if (companies.hasOwnProperty(company)) {
+    console.log(`${company}: ${companies[company]}`);
+  }
+}
+ */
+
 const companies = [
   { name: "Company One", category: "Finance", start: 1981, end: 2004 },
   { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
@@ -136,17 +152,9 @@ const companies = [
   { name: "Company Nine", category: "Retail", start: 1981, end: 1989 },
 ];
 
+const alpha = ["o", "j", "c", "d", "k", "f", "y", "h", "i", "m"];
 const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
-let sorted = [];
-
-// ---- For Structure
-// -->Starting point
-// -->Condition for when your loop should end
-// --Increment or decrement || continues up or down
-
-/* for (let i = 0; i < ages.length; i++) {
-  
-} */
-ages.sort()
-console.log(ages)
+alpha.forEach(element => {
+  console.log(element)
+});
